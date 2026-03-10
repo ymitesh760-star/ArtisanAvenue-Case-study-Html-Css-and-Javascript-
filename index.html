@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Custom Furniture Builder</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Custom Furniture Builder</h2>
+
+<select id="wood">
+<option value="Oak">Oak Wood</option>
+<option value="Teak">Teak Wood</option>
+<option value="Walnut">Walnut Wood</option>
+<option value="Maple">Maple Wood</option>
+</select>
+
+<input type="number" id="length" placeholder="Length (ft)">
+<input type="number" id="width" placeholder="Width (ft)">
+<input type="number" id="height" placeholder="Height (ft)">
+
+<button onclick="calculateLeadTime()">Estimate Lead Time</button>
+
+<p id="result"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
